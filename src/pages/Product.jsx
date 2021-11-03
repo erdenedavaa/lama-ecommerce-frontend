@@ -132,6 +132,8 @@ const Product = () => {
   useEffect(() => {
     const getProduct = async () => {
       try {
+        // axios create eer publicRequest iig beldsen
+        // hoino bga '/'-iig martaj bolohgui
         const res = await publicRequest.get('/products/find/' + id)
         setProduct(res.data)
       } catch {}

@@ -165,6 +165,7 @@ const Cart = () => {
           tokenId: stripeToken.id,
           amount: cart.total * 100,
         })
+        // history iin Redirect-ees yalgaatai ni payload-tai.
         history.push('/success', { stripeData: res.data, products: cart })
       } catch (err) {}
     }

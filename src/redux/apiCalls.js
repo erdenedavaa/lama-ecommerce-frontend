@@ -1,6 +1,7 @@
 import { publicRequest } from '../requestMethods'
 import { loginFailure, loginStart, loginSuccess } from './userRedux'
 
+// user ni 'username', 'password'
 export const login = async (dispatch, user) => {
   dispatch(loginStart())
   try {

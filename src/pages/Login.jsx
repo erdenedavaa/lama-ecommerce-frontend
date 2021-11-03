@@ -55,7 +55,7 @@ const Button = styled.button`
   margin-bottom: 10px;
   &:disabled {
     cursor: not-allowed;
-    background-color: #8080809e;
+    background-color: #80809e;
   }
 `
 
